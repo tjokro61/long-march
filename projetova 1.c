@@ -19,7 +19,7 @@ int main(){
         }
 
 
-        //rumus persegi
+        //rumus bujur sangkar
         else if (opt == 2){
             printf("masukkan nilai sisi 1=");
             scanf("%f", &a);
@@ -29,11 +29,11 @@ int main(){
             printf("ini hasilnya=%.2f", c);
         }
 
-        //rumus jajar genjang
+        //rumus persegi panjang
         else if (opt == 3){
-            printf("masukkan nilai alas=");
+            printf("masukkan nilai panjang=");
             scanf("%f", &a);
-            printf("masukkan nilai tinggi=");
+            printf("masukkan nilai lebar=");
             scanf("%f", &b);
             c=a*b;
             printf("ini hasilnya=%.2f", c);
